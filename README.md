@@ -1,4 +1,4 @@
-# Sequel — Flutter & Firebase Quiz Platform
+# Flutter & Firebase Quiz Application
 
 A full-stack quiz and assessment mobile application built with Flutter, powered by Google Firebase (Authentication & Cloud Firestore). The application features dynamic multiple-choice question serving, single-attempt test integrity, real-time score tracking, a competitive leaderboard, and an administrative control panel.
 
@@ -11,13 +11,16 @@ A full-stack quiz and assessment mobile application built with Flutter, powered 
 - **Admin Control Panel**: Interface to provision users, author new questions, and review activity logs.
 - **Instant Visual Feedback**: Interactive answer cards highlighting correct/wrong selections.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Framework**: [Flutter](https://flutter.dev) (Dart 3)
-- **Backend & Database**: [Cloud Firestore](https://firebase.google.com/docs/firestore)
+- **Framework**: [Flutter](https://flutter.dev/)  
+- **Programming Language**: Dart 3
+- **Backend Platform**: [Firebase](https://firebase.google.com/)
+- **Database**: [Cloud Firestore](https://firebase.google.com/docs/firestore)
 - **Authentication**: [Firebase Authentication](https://firebase.google.com/docs/auth)
-- **Platform**: [Firebase](https://firebase.google.com/)
-- **Local Persistence**: `shared_preferences`
+- **Firebase Integration**: FlutterFire
+- **Local Storage**: `shared_preferences`
+- **Supported Platforms**: Android & Web
 
 ## Firebase Setup
 
