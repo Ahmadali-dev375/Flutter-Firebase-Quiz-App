@@ -1,6 +1,6 @@
 # Flutter & Firebase Quiz Application
 
-A full-stack quiz and assessment mobile application built with Flutter, powered by Google Firebase (Authentication & Cloud Firestore). The application features dynamic multiple-choice question serving, single-attempt test integrity, real-time score tracking, a competitive leaderboard, and an administrative control panel.
+A full-stack quiz and assessment mobile application built with Flutter, powered by Google Firebase (Authentication & Cloud Firestore).
 
 ## Features
 
@@ -18,18 +18,11 @@ A full-stack quiz and assessment mobile application built with Flutter, powered 
 - **Backend Platform**: [Firebase](https://firebase.google.com/)
 - **Database**: [Cloud Firestore](https://firebase.google.com/docs/firestore)
 - **Authentication**: [Firebase Authentication](https://firebase.google.com/docs/auth)
-- **Firebase Integration**: FlutterFire
-- **Local Storage**: `shared_preferences`
 - **Supported Platforms**: Android & Web
 
 ## Firebase Setup
 
 This project uses Firebase Authentication and Cloud Firestore.
-
-Firebase project-specific configuration files are intentionally excluded from this repository:
-- `android/app/google-services.json`
-- `ios/Runner/GoogleService-Info.plist`
-- `lib/firebase_options.dart`
 
 Developers cloning the project must configure their own Firebase project before running the application.
 
@@ -57,7 +50,7 @@ Developers cloning the project must configure their own Firebase project before 
    ```
    Select your Firebase project and platforms (Android, iOS, Web, macOS). This generates your local `lib/firebase_options.dart` and native configuration files.
 
-## Getting Started
+## 🚀 Getting Started
 
 1. **Clone the repository**:
    ```bash
@@ -78,12 +71,6 @@ Developers cloning the project must configure their own Firebase project before 
    flutter run
    ```
 
-## Security & Firebase Configuration
-
-Firebase project-specific configuration files are intentionally excluded from this repository. Developers cloning the project should configure their own Firebase project using FlutterFire.
-
-This application relies on Firebase Authentication and Cloud Firestore. Production deployments should use properly configured Firestore Security Rules and appropriate authorization for administrative functionality.
-
-## Author
+## 👨‍💻 Author
 
 **Ahmad Ali**
