@@ -2,6 +2,36 @@
 
 A full-stack quiz and assessment mobile application built with Flutter, powered by Google Firebase (Authentication & Cloud Firestore).
 
+## 🕰️ Project Evolution
+
+This project originally started with a locally defined static quiz system,
+where questions, answer options, and correct answers were stored directly
+in Dart.
+
+It was later expanded into a Firebase-powered quiz application with
+dynamic question management through Cloud Firestore.
+
+The original implementation has been preserved in a separate branch for
+reference and to demonstrate the project's development progression.
+
+👉 [**View the Static Data Version**](../../tree/static-data)
+
+### Original Data Structure
+
+```dart
+class QuestionModel {
+  final String qus;
+  final List<String> opt;
+  final int ans;
+
+  const QuestionModel({
+    required this.qus,
+    required this.opt,
+    required this.ans,
+  });
+}
+```
+
 ## Features
 
 - **Firebase Authentication**: User authentication and session management.
@@ -54,8 +84,8 @@ Developers cloning the project must configure their own Firebase project before 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Ahmadali-dev375/sequel.git
-   cd sequel
+   git clone https://github.com/AhmxAli07/Flutter-Firebase-Quiz-App.git
+   cd Flutter-Firebase-Quiz-App
    ```
 
 2. **Install dependencies**:
